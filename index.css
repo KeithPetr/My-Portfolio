@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  min-width: 480px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -90,7 +91,7 @@ body {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
+  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
   place-content: center;
   gap: 1.5em;
 }
@@ -98,10 +99,63 @@ body {
 .skills-card {
   box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15),
     0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-    background: #fff;
-    padding: 2em 2em
+  background: #fff;
+  padding: 2em 2em;
 }
 
 .skills-bottom-description {
   margin: 2em 0;
+}
+
+/* ------------------ Portfolio Section --------------------- */
+
+.portfolio {
+  text-align: center;
+  padding: 2em 0;
+}
+
+.portfolio-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.portfolio-title {
+  margin: 0;
+}
+
+.portfolio-subtitle {
+  margin-bottom: 2em;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  place-content: center;
+  gap: 2.5em;
+}
+
+.portfolio-card {
+  background: #fff;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15),
+    0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.screenshot {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #3e3e3e;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  padding-top: 0.75em;
+}
+
+.project-description {
+  padding: 0 1em;
 }
