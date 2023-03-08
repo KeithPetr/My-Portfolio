@@ -30,9 +30,9 @@ body {
 .hero-container {
   padding-top: 5em;
   text-align: center;
-  
   width: 70%;
   margin: 0 auto;
+  padding-bottom: 2em;
 }
 
 .profile-pic {
@@ -71,4 +71,24 @@ body {
 
 .what-i-do:hover {
     cursor: pointer;
+}
+
+/* --------------------- Skills Section ----------------- */
+
+.skills {
+    background-color: #e8e7e7;
+    padding-top: 1em;
+}
+
+.skills-container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
+    place-content: center;
+    gap: 1.5em;
 }
