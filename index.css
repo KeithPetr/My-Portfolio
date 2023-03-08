@@ -56,39 +56,52 @@ body {
   font-size: 1.5rem;
 }
 
-.what-i-do {
+.btn {
   width: 100%;
   border: none;
   padding: 1em;
   box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5),
     inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
   background-color: #43b3e0;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 1.2rem;
   border-radius: 10px;
   text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 }
 
-.what-i-do:hover {
-    cursor: pointer;
+.btn:hover {
+  cursor: pointer;
 }
 
 /* --------------------- Skills Section ----------------- */
 
 .skills {
-    background-color: #e8e7e7;
-    padding-top: 1em;
+  background-color: #e8e7e7;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .skills-container {
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 2em;
 }
 
 .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
-    place-content: center;
-    gap: 1.5em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
+  place-content: center;
+  gap: 1.5em;
+}
+
+.skills-card {
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15),
+    0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    padding: 2em 2em
+}
+
+.skills-bottom-description {
+  margin: 2em 0;
 }
