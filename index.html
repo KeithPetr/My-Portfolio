@@ -15,18 +15,21 @@
     <title>Keith's Portfolio Website</title>
   </head>
   <body>
+<!-- ----------------- Header Section ------------------- -->
     <header class="header-container">
       <ul class="nav-bar">
-        <li class="nav-item">Skills</li>
-        <li class="nav-item">Portfolio</li>
-        <li class="nav-item">About Me</li>
-        <li class="nav-item">Contact</li>
-        <li class="nav-item">
-          <img src="images/arrow-up.svg" class="arrow" alt="up arrow" />
-        </li>
+        <a href="#skills" class="nav-item"><li>Skills</li></a>
+        <a href="#portfolio" class="nav-item"><li>Portfolio</li></a>
+        <a href="#about-me" class="nav-item"><li>About Me</li></a>
+        <a href="#contact" class="nav-item"><li>Contact</li></a>
+        <a href="#" class="nav-item">
+          <li>
+            <img src="images/arrow-up.svg" class="arrow" alt="up arrow" />
+          </li>
+        </a>
       </ul>
     </header>
-
+<!-- --------------- Hero Section -------------------- -->
     <section class="hero">
       <div class="hero-container">
         <img
@@ -38,13 +41,13 @@
           <h1 class="intro">
             Hi, I'm <span class="full-name">Keith Petryshyn</span>
           </h1>
-          <p class="front-end-dev">Front-end Dev</p>
+          <h2 class="front-end-dev">Front-end Dev</h2>
           <button class="btn" type="button">Learn about what I do</button>
         </div>
       </div>
     </section>
-
-    <section class="skills">
+<!-- ------------ Skills Section --------------------- -->
+    <section class="skills" id="skills">
       <div class="skills-container">
         <h2 class="skills-title-bold">Here's all the stuff I do.</h2>
         <p class="skills-title-regular">
@@ -90,8 +93,8 @@
         <button class="btn">See some of my recent work</button>
       </div>
     </section>
-
-    <section class="portfolio">
+<!-- ----------------- Portfolio Section ------------------- -->
+    <section class="portfolio" id="portfolio">
       <div class="portfolio-container">
         <h2 class="portfolio-title">Here's some stuff I made recently.</h2>
         <p class="portfolio-subtitle">
@@ -180,8 +183,8 @@
         <button type="button" class="btn">Get in touch with me</button>
       </div>
     </section>
-
-    <section class="contact">
+<!-- ------------------ Contact Section ------------------ -->
+    <section class="contact" id="contact">
       <div class="contact-info-container">
         <h2 class="contact-form-title">Have me come work for you.</h2>
         <p class="contact-form-subtitle">
@@ -197,14 +200,22 @@
         <button type="button" class="btn dark-bg">Clear Form</button>
       </div>
     </section>
-
+<!-- ----------------- Links Section --------------------- -->
     <section class="links">
       <div class="links-container">
         <h3 class="find-me">Find me on...</h3>
         <div class="link-icons">
-          <img src="icons/linkedin.svg" class="icon linkedin" alt="linkedin icon">
-          <img src="icons/github.svg" class="icon github" alt="github icon">
-          <img src="icons/twitter.svg" class="icon twitter" alt="twitter icon">
+          <img
+            src="icons/linkedin.svg"
+            class="icon linkedin"
+            alt="linkedin icon"
+          />
+          <img src="icons/github.svg" class="icon github" alt="github icon" />
+          <img
+            src="icons/twitter.svg"
+            class="icon twitter"
+            alt="twitter icon"
+          />
         </div>
       </div>
     </section>

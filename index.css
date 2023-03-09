@@ -20,10 +20,17 @@ body {
   display: flex;
   justify-content: space-around;
   list-style: none;
-  color: #fff;
   padding: 1em 0.5em 0.75em;
   font-weight: 700;
   margin: 0;
+}
+
+.nav-item {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
 }
 
 /* ------------------ Hero Section ----------------------- */
@@ -55,6 +62,7 @@ body {
 
 .front-end-dev {
   font-size: 1.5rem;
+  text-shadow: 0px 0px 23px #0a2bcd;
 }
 
 .btn {
