@@ -159,3 +159,32 @@ a {
 .project-description {
   padding: 0 1em;
 }
+
+.portfolio-bottom-description {
+  margin-top: 2em;
+}
+
+/* --------------------- Contact Form ----------------------- */
+
+.contact {
+  background-color: #303030;
+  color: #999999;
+  text-align: center;
+}
+
+.contact-info-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contact-form-title {
+  margin: 0;
+  padding-top: 1em;
+  color: #FFFFFF;
+}
+
+.contact-form input, textarea {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
