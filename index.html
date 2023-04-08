@@ -43,14 +43,18 @@
               Hi, I'm <span class="full-name">Keith Petryshyn</span>
             </h1>
             <h2 class="front-end-dev">Front-end Dev</h2>
-            <a href="#skills"><button class="btn" type="button">Learn about what I do</button></a>
+            <a href="#skills"
+              ><button class="btn" type="button">
+                Learn about what I do
+              </button></a
+            >
           </div>
         </div>
       </section>
       <!-- ------------ Skills Section --------------------- -->
       <section class="skills" id="skills">
         <div class="skills-container">
-          <h2 class="skills-title-bold">Here's all the stuff I do.</h2>
+          <h2 class="skills-title-bold">Here's all the stuff I do</h2>
           <p class="skills-title-regular">
             This is a list of the coding languages I use
           </p>
@@ -71,18 +75,29 @@
           <p class="skills-bottom-description">
             If you would like to see my work, please click on the button below.
           </p>
-          <button class="btn">See some of my recent work</button>
+          <a href="#portfolio"><button class="btn">See some of my recent work</button></a>
         </div>
       </section>
       <!-- ----------------- Portfolio Section ------------------- -->
       <section class="portfolio" id="portfolio">
         <div class="portfolio-container">
-          <h2 class="portfolio-title">Here's some stuff I made recently.</h2>
+          <h2 class="portfolio-title">Here's some stuff I made recently</h2>
           <p class="portfolio-subtitle">
             Please click on one of the projects to view a description, the code,
             and a link to a live demo.
           </p>
           <div class="portfolio-grid">
+            <div class="portfolio-card">
+              <img
+                src="images/Quizzical-App.png"
+                class="screenshot"
+                alt="picture of the Quizzical app start page"
+              />
+              <a href="#">Quizzical App</a>
+              <p class="project-description">
+                This app creates random Quizzes using a trivia API and React.
+              </p>
+            </div>
             <div class="portfolio-card">
               <img
                 src="images/Tindog-screenshot.png"
@@ -95,18 +110,7 @@
                 the results.
               </p>
             </div>
-            <div class="portfolio-card">
-              <img
-                src="images/Hikefinder-screenshot.png"
-                class="screenshot"
-                alt="picture of the trails in the Hikefinder app"
-              />
-              <a href="#">Hikefinder</a>
-              <p class="project-description">
-                This app demonstrates the use of responsive design to change the
-                layout of the webpages.
-              </p>
-            </div>
+            
             <div class="portfolio-card">
               <img
                 src="images/Invoice-Creator-screenshot.png"
@@ -115,21 +119,20 @@
               />
               <a href="#">Invoice Creator</a>
               <p class="project-description">
-                This app allows the user to type in the type of task they want
-                done and assign a price to it. Then the items are displayed and
-                the total is calculated.
+                This app allows the user to create a list of tasks and calculate
+                the total price.
               </p>
             </div>
             <div class="portfolio-card">
               <img
-                src="images/Ordering-App-screenshot.png"
+                src="images/Texterly-Screenshot.png"
                 class="screenshot"
-                alt="picture of the ordering app"
+                alt="picture of the texterly ai app"
               />
-              <a href="#">Ordering App</a>
+              <a href="#">Texterly AI</a>
               <p class="project-description">
-                This app lets the user select food items for purchase and then
-                asks for their payment information to complete the order.
+                This app allows the user to enter in text, have it analyzed for
+                errors, and the corrected text is returned.
               </p>
             </div>
             <div class="portfolio-card">
@@ -146,14 +149,14 @@
             </div>
             <div class="portfolio-card">
               <img
-                src="images/Salesboard-Screenshot.png"
+                src="images/Color-Generator.png"
                 class="screenshot"
-                alt="picture of the salesboard app"
+                alt="picture of the color generator app"
               />
-              <a href="#">Salesboard</a>
+              <a href="#">Color Generator</a>
               <p class="project-description">
-                This app allows the user to record 2 types of sales. It then
-                records and displays the achievements, revenue, and commission.
+                This app allows the user to select a color and then generator a
+                color scheme palette based off of that color.
               </p>
             </div>
           </div>
@@ -164,6 +167,37 @@
           <button type="button" class="btn">Get in touch with me</button>
         </div>
       </section>
+      <!-- -------------------About Me ------------------------- -->
+      <section class="about-me" id="about-me">
+        <div class="about-me-container">
+          <h2 class="about-me-title">A little about who I am</h2>
+          <img
+            class="about-me-image"
+            src="images/me-fishing.jpg"
+            alt="Keith out fishing"
+          />
+          <p class="about-me-description">
+            I am new to the Front-end Developer world. I have taken a coding
+            bootcamp with TrueCoders and Scrimba. These were my first
+            experiences with coding. During my time at these camps, I learned
+            about HTML, CSS, JavaScript, React, Firebase and a few other topics
+            to help start my coding journey. Currently, I am using the Scrimba
+            platform to further my understanding. I am completing their Frontend
+            Career Path and I am going through those courses to help me add
+            projects to my work experience.
+          </p>
+          <p class="about-me-description">
+            In my time away from coding, I love being outside. I will be out
+            either birding or fishing. I have a large collection of bird photos
+            that I hope to turn into my own searchable gallery as I countinue to
+            improve my coding skills. If it is too cold to do either of those
+            those things, you will find me gaming. Video game designs and
+            layouts are a large source of inspiration for how I like to design
+            web pages and add functionality to them.
+          </p>
+        </div>
+      </section>
+
       <!-- ------------------ Contact Section ------------------ -->
       <section class="contact" id="contact">
         <div class="contact-info-container">
