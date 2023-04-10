@@ -329,11 +329,13 @@ textarea {
     font-size: 1.4rem;
   }
 
-  .about-me-grid {
+  .about-me-flex {
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 
   .about-me-image {
