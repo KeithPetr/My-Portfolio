@@ -53,7 +53,7 @@ body {
   list-style: none;
   padding-left: 0.5em;
   padding-top: 1.5em;
-  top: 3%;
+  top: 3.2%;
   width: 30%;
 }
 
@@ -354,6 +354,7 @@ textarea {
 /* ----------------- Media Queries --------------------- */
 
 @media (min-width: 480px) {
+  
   .profile-pic {
     width: 300px;
     height: 300px;
