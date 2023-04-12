@@ -16,15 +16,14 @@
   </head>
   <body>
     <div class="site-container">
-
       <!-- ----------------- Header Section ------------------- -->
 
       <header class="header-container">
         <img
-            id="hamburger-icon"
-            src="icons/hamburger-icon.png"
-            alt="hamburger menu icon"
-          />
+          id="hamburger-icon"
+          src="icons/hamburger-icon.png"
+          alt="hamburger menu icon"
+        />
         <ul class="nav-bar">
           <a href="#skills" class="nav-item"><li>Skills</li></a>
           <a href="#portfolio" class="nav-item"><li>Portfolio</li></a>
@@ -44,18 +43,61 @@
 
       <!-- ---------------- Project Information --------------- -->
 
-      <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-          <strong>Qizzical</strong> <strong>App</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-        <img
-          src="img/Quizzical-App-Screenshot.png"
-          alt="my quiz react project"
-          class="intro__img"
-        />
+      <section class="project-layout">
+        <div class="project-layout-top">
+          <img
+            src="images/Quizzical-App.png"
+            alt="my quiz react project"
+            class="project-image"
+          />
+          <div class="project-headings">
+            <h1 class="project-title">Qizzical App</h1>
+            <p class="project-subheading">A React Based Project</p>
+          </div>
+        </div>
+        <div class="project-details">
+          <h3>A Scrimba FrontEnd Developer Path Project</h3>
+          <p>
+            This project accesses the Open Trivia Database to generate random
+            quizzes. The quiz page generates random questions and the
+            associcated answers to them. The user can then select an answer to
+            each question. Finally, the user can click the chekc answer button
+            to see how many questions they correctly answered.
+          </p>
+          <h3>Programming Languages Used</h3>
+          <ul class="project-languages">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>JSX</li>
+            <li>React</li>
+          </ul>
+          <h3>Project Requirements</h3>
+          <p>
+            There were 4 main requirements for this project. The first one
+            required me to create 2 screens, a start page and a quiz page. The
+            second requirement was to pull at least 5 questions from the API and
+            display them. The third requirement was to tally all of the correct
+            answers after the 'Check Answers' button was clicked. The final
+            requirement was to style the app according to a Figma file.
+          </p>
+          <p class="source-code">The GitHub:</p>
+          <a
+            class="source-code-link"
+            href="https://github.com/KeithPetr/Quizzical-App"
+            >https://github.com/KeithPetr/Quizzical-App</a
+          >
+          <p class="click-on-image">
+            Click on the image below to go to the application
+          </p>
+          <a
+            class="project-gif"
+            href="https://keith-quizzical-app.netlify.app/"
+            target="_blank"
+            ><img src="gifs/Quizzical-Gif.gif" alt="quizical app gif"
+          /></a>
+        </div>
       </section>
-  
 
       <!-- ----------------- Links Section --------------------- -->
 

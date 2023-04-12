@@ -264,6 +264,31 @@ textarea {
   background-color: #444444;
 }
 
+/* ----------------- About Me ---------------------------- */
+
+.about-me {
+  background-color: #e8e7e7;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.about-me-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.about-me-image {
+  width: 200px;
+  height: 300px;
+  box-shadow: 2px 2px 10px #121212;
+}
+
+.about-me-description {
+  text-shadow: 2px 2px 8px #bebdbd;
+}
+
 /* -------------------- Links Section ----------------------- */
 
 .links {
@@ -326,30 +351,72 @@ textarea {
   cursor: pointer;
 }
 
-/* ----------------- About Me ---------------------------- */
+/* ------------------- Project Pages ---------------------- */
 
-.about-me {
-  background-color: #e8e7e7;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-.about-me-container {
+.project-layout {
+  padding-top: 3em;
   width: 80%;
   margin: 0 auto;
+}
+
+.project-layout-top {
+  display: flex;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.project-headings {
+  font-size: 1.25rem;
   text-align: center;
-  padding-bottom: 2em;
 }
 
-.about-me-image {
-  width: 200px;
-  height: 300px;
-  box-shadow: 2px 2px 10px #121212;
+.project-image {
+  width: 40%;
 }
 
-.about-me-description {
-  text-shadow: 2px 2px 8px #bebdbd;
+.project-languages {
+  padding-left: 0;
+  margin-left: 1.5em;
 }
+
+.click-on-image {
+  margin-top: 1.5em;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  padding-top: 1.25em;
+}
+
+.project-gif {
+  border: none;
+}
+
+.click-on-image, .project-gif {
+  text-align: center;
+}
+
+.project-gif img {
+  width: 100%;
+  margin-bottom: 1em;
+  max-width: 800px;
+}
+
+.source-code {
+  background-color: transparent;
+  font-size: 1.17rem;
+  color: #000000;
+  font-weight: 700;
+  margin: 1.17em 0 0;
+}
+
+.source-code-link {
+  border: none;
+  font-size: 1rem;
+  margin: 0;
+}
+
 
 /* ----------------- Media Queries --------------------- */
 
@@ -371,6 +438,19 @@ textarea {
   .nav-bar-two.open,
   #hamburger-icon {
     display: none;
+  }
+
+  .project-layout {
+    padding-top: 4em;
+  }
+
+  .project-layout-top {
+    padding-top: 1.5em;
+    flex-direction: column;
+  }
+
+  .project-headings {
+    order: -1;
   }
 }
 
@@ -404,6 +484,10 @@ textarea {
   .about-me-description p {
     font-size: 1rem;
   }
+
+  .project-headings h1{
+    font-size: 1.75rem;
+   }
 }
 
 @media (min-width: 1000px) {
@@ -427,5 +511,9 @@ textarea {
 
   .arrow {
     height: 30px;
+  }
+
+  .project-headings h1{
+   font-size: 2rem;
   }
 }
