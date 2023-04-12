@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Keith's Portfolio Website</title>
+  </head>
+  <body>
+    <div class="site-container">
+      <!-- ----------------- Header Section ------------------- -->
+
+      <header class="header-container">
+        <img
+          id="hamburger-icon"
+          src="icons/hamburger-icon.png"
+          alt="hamburger menu icon"
+        />
+        <ul class="nav-bar">
+          <a href="index.html#skills" class="nav-item"><li>Skills</li></a>
+          <a href="index.html#portfolio" class="nav-item"><li>Portfolio</li></a>
+          <a href="index.html#about-me" class="nav-item"><li>About Me</li></a>
+          <a href="index.html#contact" class="nav-item"><li>Contact</li></a>
+        </ul>
+        <a href="#" class="nav-item">
+          <img src="images/arrow-up.svg" class="arrow" alt="up arrow" />
+        </a>
+      </header>
+      <ul class="nav-bar-two">
+        <a href="#skills" class="nav-item-two"><li>Skills</li></a>
+        <a href="#portfolio" class="nav-item-two"><li>Portfolio</li></a>
+        <a href="#about-me" class="nav-item-two"><li>About Me</li></a>
+        <a href="#contact" class="nav-item-two"><li>Contact</li></a>
+      </ul>
+
+      <!-- ---------------- Project Information --------------- -->
+
+      <section class="project-layout">
+        <div class="project-layout-top">
+          <img
+            src="images/Tindog-screenshot.png"
+            alt="my Tindog project"
+            class="project-image tindog-border"
+          />
+          <div class="project-headings">
+            <h1 class="project-title">Tindog App</h1>
+            <p class="project-subheading">A JavaScript Class Based Project</p>
+          </div>
+        </div>
+        <div class="project-details">
+          <h3>A Scrimba FrontEnd Developer Path Project</h3>
+          <p>
+            This project recreates smialr functions on the Tinder dating app. It
+            allows the user to view multiple files and read a brief bio about
+            each dog. There are 2 buttons available instead of swiping for
+            liking and rejecting each profile. When the users either likes or
+            rejects a profile, a stamp is placed on the profile and the next one
+            is loaded onto the screen. After all the profiles have been viewed,
+            a list of all 'liked' profiles appears.
+          </p>
+          <h3>Programming Languages Used</h3>
+          <ul class="project-languages">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <h3>Project Requirements</h3>
+          <p>
+            This project had 3 main requirements. The first one was to follow
+            the Figma design that was provided to create the layout of the app.
+            The second requirement was to use JavaScript classes. the classes
+            were used to create new dogs and store their information and methods
+            that could be applied to each new profile as it was created. The
+            final requirement was to use JavaScript modules. This was needed as
+            the Dog class was stored in one file, each dogs data was stored in
+            another, and all of that information needed to be brought to the
+            index.js file so that functions running the app had the correct
+            information to display. As a stretch goal, I added a page at the end
+            that displays all of the profiles that were liked, if any.
+          </p>
+          <p class="source-code">The GitHub:</p>
+          <a
+            class="source-code-link"
+            href="https://github.com/KeithPetr/Tindog"
+            >https://github.com/KeithPetr/Tindog</a
+          >
+          <p class="click-on-image">
+            Click on the image below to go to the application
+          </p>
+          <a
+            class="project-gif"
+            href="https://keith-tindog-site.netlify.app/"
+            target="_blank"
+            ><img src="gifs/Tindog.gif" alt="tindog app gif"
+          /></a>
+        </div>
+      </section>
+
+      <!-- ----------------- Links Section --------------------- -->
+
+      <section class="links">
+        <div class="links-container">
+          <h3 class="find-me">Find me on...</h3>
+          <div class="link-icons">
+            <a
+              href="https://www.linkedin.com/in/keith-petryshyn-886b5016/"
+              target="_blank"
+            >
+              <img
+                src="icons/linkedin.svg"
+                class="icon linkedin"
+                alt="linkedin icon"
+              />
+            </a>
+            <a href="https://github.com/KeithPetr" target="_blank">
+              <img
+                src="icons/github.svg"
+                class="icon github"
+                alt="github icon"
+              />
+            </a>
+            <a href="https://twitter.com/KeithABCoding" target="_blank">
+              <img
+                src="icons/twitter.svg"
+                class="icon twitter"
+                alt="twitter icon"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
