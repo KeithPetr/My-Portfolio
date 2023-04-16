@@ -405,6 +405,11 @@ textarea {
   text-align: center;
 }
 
+.project-gif {
+  display: block;
+  margin: 0 auto;
+}
+
 .project-gif img {
   width: 100%;
   margin-bottom: 1em;

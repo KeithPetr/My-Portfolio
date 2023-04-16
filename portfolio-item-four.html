@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Keith's Portfolio Website</title>
+  </head>
+  <body class="project-background">
+    <div class="site-container">
+      <!-- ----------------- Header Section ------------------- -->
+
+      <header class="header-container">
+        <img
+          id="hamburger-icon"
+          src="icons/hamburger-icon.png"
+          alt="hamburger menu icon"
+        />
+        <ul class="nav-bar">
+          <a href="index.html#skills" class="nav-item"><li>Skills</li></a>
+          <a href="index.html#portfolio" class="nav-item"><li>Portfolio</li></a>
+          <a href="index.html#about-me" class="nav-item"><li>About Me</li></a>
+          <a href="index.html#contact" class="nav-item"><li>Contact</li></a>
+        </ul>
+        <a href="#" class="nav-item">
+          <img src="images/arrow-up.svg" class="arrow" alt="up arrow" />
+        </a>
+      </header>
+      <ul class="nav-bar-two">
+        <a href="#skills" class="nav-item-two"><li>Skills</li></a>
+        <a href="#portfolio" class="nav-item-two"><li>Portfolio</li></a>
+        <a href="#about-me" class="nav-item-two"><li>About Me</li></a>
+        <a href="#contact" class="nav-item-two"><li>Contact</li></a>
+      </ul>
+
+      <!-- ---------------- Project Information --------------- -->
+
+      <section class="project-layout">
+        <div class="project-layout-top">
+          <img
+            src="images/Texterly-Screenshot.png"
+            alt="my invoice creator project"
+            class="project-image"
+          />
+          <div class="project-headings">
+            <h1 class="project-title">Texterly AI</h1>
+            <p class="project-subheading">A JavaScript OpenAI API Project</p>
+          </div>
+        </div>
+        <div class="project-details">
+          <h3>A Scrimba Bootcamp Project</h3>
+          <p>
+            This project involved creating an app that allows the user to edit
+            text. The user could copy and paste or type text directly into the
+            text area. They can then hit the 'Process' button to have the app
+            make spelling, grammar, and punctuation corrections. The app will
+            also tell the user how many characters and words are in the given
+            text. The newly edited text can then be copied to the clipboard and
+            the 'Reset' button can be clicked to empty the text area.
+          </p>
+
+          <h3>Programming Languages Used</h3>
+          <ul class="project-languages">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <h3>Project Requirements</h3>
+          <p>
+            There were 4 main requirements for this project. The first was
+            following a Figma file for the design. The second was to make POST
+            requests to the OpenAI API's /edit endpoint so that text could be
+            analyzed. The third requirement was to select the
+            'text/davinci-edit-001' model for editing text. The fourth
+            requirement was to keep track of the character and word counts.
+          </p>
+          <p>
+            There were also 2 stretch goals I included with the project. The
+            first was creating a copy button so the user can copy the newly
+            edited text. The second was to have a loading indicator appear as
+            the text was being processed during the POST request.
+          </p>
+          <p>
+            For this project there is no live demo. I was not able to save my
+            API key to GitHub due to security issues. If you wish to test the
+            project out yourself, you can follow the GitHub link and copy or
+            clone the project. Then you can create your own API key with OpenAI
+            and insert it into the project to see it work live. I have included
+            the gif below to demonstrate the functionality.
+          </p>
+          <p class="source-code">The GitHub:</p>
+          <a
+            class="source-code-link"
+            href="https://github.com/KeithPetr/Texterly-AI"
+            >https://github.com/KeithPetr/Texterly-AI</a
+          >
+          <p class="click-on-image"></p>
+          <img
+            class="project-gif"
+            src="gifs/Texterly-AI-Gif.gif"
+            alt="quizical app gif"
+          />
+        </div>
+      </section>
+
+      <!-- ----------------- Links Section --------------------- -->
+
+      <section class="links">
+        <div class="links-container">
+          <h3 class="find-me">Find me on...</h3>
+          <div class="link-icons">
+            <a
+              href="https://www.linkedin.com/in/keith-petryshyn-886b5016/"
+              target="_blank"
+            >
+              <img
+                src="icons/linkedin.svg"
+                class="icon linkedin"
+                alt="linkedin icon"
+              />
+            </a>
+            <a href="https://github.com/KeithPetr" target="_blank">
+              <img
+                src="icons/github.svg"
+                class="icon github"
+                alt="github icon"
+              />
+            </a>
+            <a href="https://twitter.com/KeithABCoding" target="_blank">
+              <img
+                src="icons/twitter.svg"
+                class="icon twitter"
+                alt="twitter icon"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
