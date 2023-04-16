@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Keith's Portfolio Website</title>
+  </head>
+  <body class="project-background">
+    <div class="site-container">
+      <!-- ----------------- Header Section ------------------- -->
+
+      <header class="header-container">
+        <img
+          id="hamburger-icon"
+          src="icons/hamburger-icon.png"
+          alt="hamburger menu icon"
+        />
+        <ul class="nav-bar">
+          <a href="index.html#skills" class="nav-item"><li>Skills</li></a>
+          <a href="index.html#portfolio" class="nav-item"><li>Portfolio</li></a>
+          <a href="index.html#about-me" class="nav-item"><li>About Me</li></a>
+          <a href="index.html#contact" class="nav-item"><li>Contact</li></a>
+        </ul>
+        <a href="#" class="nav-item">
+          <img src="images/arrow-up.svg" class="arrow" alt="up arrow" />
+        </a>
+      </header>
+      <ul class="nav-bar-two">
+        <a href="#skills" class="nav-item-two"><li>Skills</li></a>
+        <a href="#portfolio" class="nav-item-two"><li>Portfolio</li></a>
+        <a href="#about-me" class="nav-item-two"><li>About Me</li></a>
+        <a href="#contact" class="nav-item-two"><li>Contact</li></a>
+      </ul>
+
+      <!-- ---------------- Project Information --------------- -->
+
+      <section class="project-layout">
+        <div class="project-layout-top">
+          <img
+            src="images/Invoice-Creator-Screenshot.png"
+            alt="my invoice creator project"
+            class="project-image"
+          />
+          <div class="project-headings">
+            <h1 class="project-title">Invoice Creator</h1>
+            <p class="project-subheading">A JavaScript Project</p>
+          </div>
+        </div>
+        <div class="project-details">
+          <h3>A Scrimba Bootcamp Project</h3>
+          <p>
+            This project involved creating an application where you could enter
+            in a specific task and assign a price to it. Those tasks would then
+            be listed and their totals calculated. It also allows for the
+            removal of any particular item from the list. Clicking the 'Send
+            Invoice' button would then reset the list so you could start over
+            and add new items.
+          </p>
+          <h3>Programming Languages Used</h3>
+          <ul class="project-languages">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <h3>Project Requirements</h3>
+          <p>
+            There were 6 main requirements for this project. The first was I
+            needed to create an array to hold all of the tasks that were entered
+            onto the list. The secodn requirement was to create a button that
+            would add each task to this array. The third was displaying the
+            array data and making sure that it changed as the array was updated.
+            The fourth requirement was to ensure that the same item could not be
+            added twice to the list. The fifth was updating the total amount by
+            keeping track of the price assigned to each task as it was added or
+            removed. The last requirement was to have the 'Send Invoice' button
+            reset the entire list.
+          </p>
+          <p>
+            As extra stretch goals, I added an input field so the user could
+            type in what they wanted rather than choose from predetermined
+            options. The final stretch goal was to be able to remove each
+            specific item from the list.
+          </p>
+          <p class="source-code">The GitHub:</p>
+          <a
+            class="source-code-link"
+            href="https://github.com/KeithPetr/Invoice-Creator"
+            >https://github.com/KeithPetr/Invoice-Creator</a
+          >
+          <p class="click-on-image">
+            Click on the image below to go to the application
+          </p>
+          <a
+            class="project-gif"
+            href="https://keith-invoice-creator.netlify.app/"
+            target="_blank"
+            ><img src="gifs/Invoice-Creator.gif" alt="quizical app gif"
+          /></a>
+        </div>
+      </section>
+
+      <!-- ----------------- Links Section --------------------- -->
+
+      <section class="links">
+        <div class="links-container">
+          <h3 class="find-me">Find me on...</h3>
+          <div class="link-icons">
+            <a
+              href="https://www.linkedin.com/in/keith-petryshyn-886b5016/"
+              target="_blank"
+            >
+              <img
+                src="icons/linkedin.svg"
+                class="icon linkedin"
+                alt="linkedin icon"
+              />
+            </a>
+            <a href="https://github.com/KeithPetr" target="_blank">
+              <img
+                src="icons/github.svg"
+                class="icon github"
+                alt="github icon"
+              />
+            </a>
+            <a href="https://twitter.com/KeithABCoding" target="_blank">
+              <img
+                src="icons/twitter.svg"
+                class="icon twitter"
+                alt="twitter icon"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
