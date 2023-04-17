@@ -218,7 +218,7 @@ a {
   margin-top: 2em;
 }
 
-/* --------------------- Contact Form ----------------------- */
+/* --------------------- Contact Page ----------------------- */
 
 .contact {
   background-color: #303030;
@@ -235,38 +235,23 @@ a {
   margin: 0 auto;
 }
 
-.contact-form-title {
+.contact-page-title {
   margin: 0;
   padding-top: 1em;
   color: #ffffff;
 }
 
-.contact-form {
-  max-width: 640px;
-  margin: 0 auto;
+.email-address {
+  color: #43b3e0;
+  cursor: pointer;
+  margin: 0;
+  font-size: 1.25rem;
 }
 
-.contact-form input,
-textarea {
-  width: 100%;
-  margin-bottom: 1em;
-  border: none;
-  padding: 1em;
-  border-radius: 8px;
-  color: #bbb;
-  box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.05),
-    0px 1px 0px 0px rgba(255, 255, 255, 0.025);
-  background-color: #282828;
+.email-address:hover {
+  color: #7183dd;
 }
 
-textarea {
-  height: 15em;
-}
-
-.dark-bg {
-  margin-top: 0.5em;
-  background-color: #444444;
-}
 
 /* ----------------- About Me ---------------------------- */
 
