@@ -15,7 +15,7 @@ body.addEventListener('click', function(event) {
   });
 
 
-if (location.pathname.includes("index.html")) {
+if (location.pathname === '/' || location.pathname === "/index.html") {
   navLinks.forEach(link => {
     link.addEventListener('click', e => {
       e.preventDefault()
