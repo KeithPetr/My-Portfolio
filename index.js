@@ -14,15 +14,18 @@ body.addEventListener('click', function(event) {
     }
   });
 
-navLinks.forEach(link => {
-  link.addEventListener('click', e => {
-    e.preventDefault();
-    const href = link.getAttribute('href');
-    const target = document.querySelector(href);
-    const offsetTop = target.offsetTop;
-    window.scrollTo({
-      top: offsetTop,
-      behavior: 'smooth'
+
+if (location.pathname.includes("index.html")) {
+  navLinks.forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault()
+      const href = link.getAttribute('href');
+      const target = document.querySelector(href);
+      const offsetTop = target.offsetTop;
+      window.scrollTo({
+        top: offsetTop,
+        behavior: 'smooth'
+      });
     });
   });
-});
+}
